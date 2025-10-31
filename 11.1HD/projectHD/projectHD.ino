@@ -9,10 +9,10 @@ Uart GpsSerial(&sercom5, 10, 11, SERCOM_RX_PAD_3, UART_TX_PAD_0);
 TinyGPSPlus gps;
 
 // -------------------- Wi-Fi & MQTT Setup --------------------
-const char* ssid = "MERALAPTOP 2717";          
-const char* password = "9317724941";  
+const char* ssid = "wifi name";          
+const char* password = "wifi pass";  
 
-const char* mqttServer = "192.168.137.34"; 
+const char* mqttServer = "RPI IP Address"; 
 const int   mqttPort   = 1883;
 const char* mqttTopic  = "accidents/alerts/bike_001";
 
